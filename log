@@ -106,3 +106,9 @@ Fri Mar 26 19:54:36 UTC 2021:
  tests:  6|4
 total_score: 25/70
 37193c8
+Fri Mar 26 19:57:25 UTC 2021: 
+ list.c | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+ tests:  9|3
+total_score: 35/70
+a67db86
