@@ -117,3 +117,9 @@ Sat Mar 27 21:09:57 UTC 2021:
  1 file changed, 40 insertions(+)
  tests:  0|0
 c0a6189
+Sat Mar 27 21:17:56 UTC 2021: 
+ list.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+ tests:  10|2
+total_score: 50/70
+5d2c0ab
