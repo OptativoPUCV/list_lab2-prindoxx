@@ -129,3 +129,9 @@ Sat Mar 27 21:24:22 UTC 2021:
  tests:  10|2
 total_score: 50/70
 3d2373c
+Sat Mar 27 21:59:28 UTC 2021: 
+ list.c | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+ tests:  10|2
+total_score: 50/70
+414ca18

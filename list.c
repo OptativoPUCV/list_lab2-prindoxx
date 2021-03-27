@@ -102,54 +102,36 @@ void * popCurrent(List * list) {
   void * aux;
 
   if ( list == NULL ) return NULL;
-
   if ( list->head == NULL ) return NULL;
-
   if ( list->head == list->tail ) {
-
     aux = (void*) list->head->data;
-
     free(list->head);
-
     return aux;
 
   } else {
-
     aux = (void*) list->current->data;
 
     if ( (list->current->next != NULL) && (list->current->prev!=NULL)) {
-      
       list->current->prev->next = list->current->next;
       list->current->next->prev = list->current->prev;
-
       free(list->current);
-
       return aux;
-
     } else {
       if(list->current->next == NULL){
         list->current->prev->next = NULL;
         list->tail = list->current->prev;
-
         free(list->current);
-
         return aux;
       } else{
 
         list->current->next->prev = NULL;
         list->head = list->current->next;
-
         free(list->current);
-
         return aux;
       }
-      
-
     }
-
-    
   }
-  //return NULL;
+  return NULL;
 }
 
 void cleanList(List * list) {
